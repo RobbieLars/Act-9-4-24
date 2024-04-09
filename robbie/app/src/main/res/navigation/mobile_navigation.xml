@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="Robie.myapplication.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="Robie.myapplication.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="Robie.myapplication.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/frag_Config"
+        android:name="Robie.myapplication.Frag_Config"
+        android:label="fragment_frag__config"
+        tools:layout="@layout/fragment_frag__config" />
+    <fragment
+        android:id="@+id/frag_Calificacviomn"
+        android:name="Robie.myapplication.Frag_Calificacviomn"
+        android:label="fragment_frag__calificacviomn"
+        tools:layout="@layout/fragment_frag__calificacviomn" />
+    <fragment
+        android:id="@+id/frag_Imng"
+        android:name="Robie.myapplication.Frag_Imng"
+        android:label="fragment_frag__imng"
+        tools:layout="@layout/fragment_frag__imng" />
+    <fragment
+        android:id="@+id/frag_VIDS"
+        android:name="Robie.myapplication.Frag_VIDS"
+        android:label="fragment_frag__v_i_d_s"
+        tools:layout="@layout/fragment_frag__v_i_d_s" />
+</navigation>
